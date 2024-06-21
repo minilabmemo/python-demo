@@ -1,4 +1,4 @@
-# py-demoe
+# py-demo
 
 一個 python 檔案的練習場。
 
