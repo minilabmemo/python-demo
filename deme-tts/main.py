@@ -26,10 +26,14 @@ myText = fh.read().replace("\n", " ")
 language = 'en'
 
 output = gTTS(text=myText, lang=language, slow=False)
-output_file_path = os.path.join(script_dir, 'output.mp3')
+audio_file_path = os.path.join(script_dir, 'output.mp3')
 
-output.save(output_file_path)
+output.save(audio_file_path)
 fh.close()
 
 # Play the converted file 
-os.system("start output.mp3")
+if os.path.exists(audio_file_path):
+    # 使用 afplay 命令播放音频文件
+    os.system(f"afplay {audio_file_path}")
+else:
+    print(f"File not found: {audio_file_path}")
