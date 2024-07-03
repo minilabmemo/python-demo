@@ -26,7 +26,7 @@ myText = fh.read().replace("\n", " ")
 language = 'en'
 
 output = gTTS(text=myText, lang=language, slow=False)
-audio_file_path = os.path.join(script_dir, 'output.mp3')
+audio_file_path = os.path.join(script_dir, 'ep1_en.mp3')
 
 output.save(audio_file_path)
 fh.close()
