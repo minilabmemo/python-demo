@@ -25,7 +25,7 @@ myText = fh.read().replace("\n", " ")
 # Language we want to use 
 language = 'en'
 
-output = gTTS(text=myText, lang=language, slow=False)
+output = gTTS(text=myText, lang=language, slow=True)
 audio_file_path = os.path.join(script_dir, 'ep1_en.mp3')
 
 output.save(audio_file_path)
