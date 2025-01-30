@@ -1,0 +1,26 @@
+Afraid
+She is afraid of spiders.
+Proud
+He is proud of his daughter's achievements.
+Tired
+I am tired of eating the same food every day.
+Scared
+The child is scared of the dark.
+
+Interested
+She is interested in learning new languages.
+
+Bored
+I am bored with this book.
+Boring
+This book is boring.
+
+Excited
+She is excited about the upcoming trip.（她對即將到來的旅行感到興奮。）
+Exciting
+It's exciting to try new things.（嘗試新事物很令人興奮。）
+
+Surprised
+I was surprised by the unexpected gift.（我對那份意外的禮物感到驚訝。）
+Surprising
+The results were surprising.（結果令人驚訝。）
